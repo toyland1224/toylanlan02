@@ -1,0 +1,258 @@
+@charset "UTF-8";
+body{
+ background-color: #D9E5FF;
+}
+
+html{
+  font-size: 100%;
+}
+
+body{
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO", sans-serif;
+    line-height: 1.7;
+
+}　
+a{
+   text-decoration: none;
+}
+
+
+/*頭*/
+
+
+/*背景画像*/
+.big-bg{
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding:1px 10px 10px 5px;
+}
+#home{
+  background-image: url(../images/brogo.svg);
+  height: 500px;  /*未定*/
+  margin-bottom: 40px;
+}
+
+
+/*　ナビ部 */
+nav ul{
+  list-style: none;
+}
+nav a{
+  /*text-decoration: none; */
+  font-size: 1.2rem;
+  color: #333333;
+}
+.main-nav {
+display: flex;
+justify-content: flex-end;
+margin: 50px 0 0 20px;
+color: #000044;
+}
+
+.main-nav a:hover{
+  color: blue;
+}
+
+/*タイトル文字*/
+.big-bg h1{
+  text-align: center;
+  margin: 0px 5px 5px 10px;
+  padding-top: 170px;   /*　未定*/
+  font-size: 5vw;
+  font-family: 'Creepster', cursive ,"ＭＳ ゴシック",sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #FFFF77;
+}
+
+.header2 {
+  color: #FFFF77;
+  background-color: #000044;
+  padding: 15px;
+
+}
+
+p{
+color: #444444;
+line-height: 2.0;
+text-align:justify;
+font-family:"Yu Gothic Medium","游ゴシック Medium",YuGothic,"游ゴシック","ヒラギノ角ゴ pro W3", sans-serif;
+}
+
+/*目次部分*/
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  grid-template-rows: 1fr;
+  margin: 10vh 10px 20vh;
+}
+.syumi{
+  background: #FFFFE0;
+  color: #444444;
+  margin: 5px 0 30px;
+  padding: 20px;
+  border-right: solid thin #87CEEB;
+  border-top: solid thin #87CEEB;
+  border-left: solid thin #87CEEB;
+  border-bottom: solid thin #87CEEB;
+  box-shadow: 0 0 3px gray;
+  border-radius: 2px;
+
+}
+.syumi li{
+  font-size: 1.0rem;
+
+}
+.syumi ul{
+  font-size: 1.1rem;
+}
+.syumi a{
+  color: #333333;
+
+}
+.syumi a:hover{
+  color: #777777;
+}
+
+.midasifonto1 li{
+  list-style: inside;
+  list-style-type: square;
+}
+
+
+/*本文*/
+article{
+   max-width: 95%;
+
+}
+.news-contents{
+   display: flex;
+   justify-content: space-between;
+  margin-bottom: 20px;
+
+
+}
+.hajim{
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+
+.main-content{
+  border-right: solid thin #87CEEB;
+  border-top: solid thin #87CEEB;
+  border-left: solid thin #87CEEB;
+  border-bottom: solid thin #87CEEB;
+  box-shadow: 0 0 3px gray;
+  border-radius: 2px;
+  background-color: #FFFFE0;
+  /*border-bottom: solid thin #808080; */
+}
+
+.wrapper{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 2%;
+}
+
+
+.main-bun{
+  margin-left: 10px;
+}
+.midasi{
+   font-size: 1.6rem;
+   padding: 40px 0 30px 40px;
+   margin-top: 50px;
+   height:30px; margin:50px 0px 50px 0px; padding:3px 0px 0px 8px;
+   font-size:1.5rem; font-weight:normal; color:#000066;
+   background-image:url(../images/header.png);
+   background-repeat: repeat-x;
+
+}
+
+.midasifonto1{
+
+   padding-left: 10px;
+}
+
+.under-bo{
+  border-bottom: dotted ;
+  border-color: #DDDDDD;
+  margin: 50px 0 50px;
+  color: #444444;
+  font-size: 1.23rem;
+}
+.main-bun p{
+  padding-left: 20px;
+}
+
+.space{
+  padding-top: 40px;
+  text-align: right;
+}
+
+/* 横の見出し　*/
+aside{
+    width: 25%;
+}
+.sub-title{
+   font-size: 1.375rem;
+   padding: 0 8px 8px;
+   border-bottom: 2px #3333cc solid;
+   font-weight: normal;
+   margin-right: 10px;
+   margin-left:30px;
+   color: #444444;
+   font-family:"Yu Gothic Medium","游ゴシック Medium",YuGothic,"游ゴシック","ヒラギノ角ゴ pro W3", sans-serif;
+
+}
+aside p{
+    padding: 12px 10px;
+    margin-left: 50px;
+}
+
+.koeda{
+  width: 60%;
+  /*height: 250px;*/
+  margin: 10px;
+  margin-left: 50px;
+  border: solid thin #87CEEB;
+  box-shadow: 0 0 3px gray;
+  }
+
+/*フッター*/
+footer{
+   background: #000044;
+   text-align: center;
+   padding: 4% 4% 0 4%;
+}
+
+
+   .social-icons {
+  display: flex;
+  list-style-image: url(../images/branch4.jpg);
+  justify-content: space-around;
+  padding-top: 10vh;
+  padding: 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #FFFF77;
+}
+.social-icons a:hover{
+  color: #FFFFE0;
+}
+
+.footer2 p{
+font-size:3px;
+text-align: right;
+color: #FFFFE0;
+}
+   /* ul{
+list-style-image: url(brnkun.png);
+}
+ /* ・をアイコンにする*/
